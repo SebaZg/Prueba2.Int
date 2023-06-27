@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MsIntegracionProductosApplication",
+            "request": "launch",
+            "mainClass": "cl.duoc.msintegracionproductos.MsIntegracionProductosApplication",
+            "projectName": "cl.duoc-ms-integracion-productos"
+        },
+        {
+            "type": "java",
+            "name": "MsIntegracionBffApplication",
+            "request": "launch",
+            "mainClass": "cl.duoc.msintegracionbff.MsIntegracionBffApplication",
+            "projectName": "cl.duoc-ms-integracion-bff"
+        },
+        {
+            "type": "java",
+            "name": "MsIntegracionBffApplication",
+            "request": "launch",
+            "mainClass": "main.java.cl.duoc.msintegracionbff.service.MsIntegracionBffApplication"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MsIntegracionBffApplication<ms-integracion-bff>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cl.duoc.msintegracionbff.MsIntegracionBffApplication",
+            "projectName": "ms-integracion-bff",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
